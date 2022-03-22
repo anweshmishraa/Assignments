@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <title>Personal Portfolio</title>
+    <link rel="icon" href="/images/Logo 2.jpg" type="image/x-icon">
+  </head>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="util.css" />
+  <body>
+    <!--Section 01-->
+    <section class="part1">
+      <nav class="fx jc-sa ai-c">
+        <!--Left-->
+        <div class="left">
+          <a href="#" class="logo">
+            <img src=".//images/Logo 2.jpg" alt="" />
+          </a>
+        </div>
+        <div class="center">
+          <!--Center-->
+          <ul class="menu fx">
+            <li><a href="#section02">Home</a></li>
+            <li><a href="#section04">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#skills">Projects</a></li>
+          </ul>
+        </div>
+        <!--Right-->
+        <div class="right">
+            <a href="#section04">Contact</a>
+        </div>
+      </nav>
+    </section>
+    <!--Section 02-->
+    <section class="part2 fx ai-c jc-sa" id="section02">
+      <!--Picture-->
+      <div class="picture">
+        <img src="/images/model.png" />
+      </div>
+      <!--Text Area-->
+      <div class="main-text">
+        <h1>Hello, I am <span>Anwesh</span></h1>
+        <a href="#" download="Resume" class="portfolio-btn fx jc-c ai-c"
+          >Download Resume</a
+        >
+      </div>
+    </section>
+    <!--Section 03-->
+    <section id="skills" class="part3 fx jc-sa ai-c">
+      <!--left-->
+      <div class="left03">
+        <div class="container">
+          <h1>My Skills</h1>
+        </div>
+        <div class="card f-1">
+          <img src="/images/html.png" height="100" width="100" />
+          <h3>Hyper Text Markup Language (HTML)</h3>
+          <p>
+            HTML is the most important part of the web development. I have a
+            good knowledge of HTML.
+          </p>
+        </div>
+        <div class="card f-1">
+          <img src="/images/css.png" height="100" width="100" />
+          <h3>Cascading Style Sheets (CSS)</h3>
+          <p>
+            CSS is the most important part of the web development. I have a good
+            knowledge of CSS.
+          </p>
+        </div>
+      </div>
+      <!--right-->
+      <div class="right03">
+        <div class="container">
+          <h1>My Projects</h1>
+        </div>
+        <div class="card f-1">
+          <h3>Personal Portfolio</h3>
+          <p>This is my first project in web development.</p>
+        </div>
+      </div>
+    </section>
+    <!--Section 04-->
+    <section class="part3 fx jc-sa ai-c" id="section04">
+      <div class="left04">
+        <h1>About Me</h1>
+        <p>
+          I am passionate about building web applications.My goal is to create
+          web applications that are user friendly, and that are easy to use.
+        </p>
+      </div>
+      <div class="right04">
+        <form>
+          <input
+            name="name"
+            type="text"
+            class="form"
+            placeholder="Name"
+          />
+          <input
+            name="email"
+            type="text"
+            class="form"
+            placeholder="Email"
+          />
+          <textarea
+            name="text"
+            class="form"
+            placeholder="Lets Discuss.."
+          ></textarea>
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+.fx {
+  display: flex;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-r {
+  justify-content: right;
+}
+
+.f-w {
+  flex-wrap: wrap;
+}
+
+.f-1 {
+  flex: 1;
+}
